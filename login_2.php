@@ -17,12 +17,12 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    
+    <p>admin lte</p>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Sign in to start your session test edit disini aaaaddsdsd</p>
+      <p class="login-box-msg">Sign in to start your session test</p>
 
       <?php if(strlen($pesan) > 3) { ?>
         <p class="login-box-msg" style="color : red;"><?php echo $pesan ?>Username / Password Salah</p>
